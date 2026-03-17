@@ -1,0 +1,71 @@
+/* ===========================
+   VARIEDADES NATHY — CSS
+   =========================== */
+
+:root {
+  --color-principal: #c8a96e;
+  --color-hover: #a8894e;
+  --color-oscuro: #1c1c1c;
+  --color-fondo: #faf9f7;
+  --color-beige: #f2ede6;
+  --color-beige2: #e8e0d4;
+  --color-blanco: #ffffff;
+  --color-texto: #3a3530;
+  --fuente-titulo: 'Cormorant Garamond', serif;
+  --fuente-cuerpo: 'DM Sans', sans-serif;
+  --sombra: 0 4px 24px rgba(0,0,0,0.07);
+  --radio: 12px;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: var(--fuente-cuerpo);
+  background-color: var(--color-fondo);
+  color: var(--color-texto);
+  line-height: 1.6;
+}
+
+/* ===== NAVBAR ===== */
+.navbar {
+  background: var(--color-blanco);
+  border-bottom: 1px solid var(--color-beige2);
+  height: 68px;
+  box-shadow: 0 2px 16px rgba(0,0,0,0.05);
+}
+
+.navbar-brand {
+  font-family: var(--fuente-titulo);
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--color-oscuro) !important;
+  letter-spacing: 0.5px;
+}
+
+.brand-icon {
+  color: var(--color-principal);
+}
+
+.navbar .nav-link {
+  font-family: var(--fuente-cuerpo);
+  color: var(--color-texto) !important;
+  font-size: 0.92rem;
+  font-weight: 500;
+  padding: 8px 16px !important;
+  border-radius: 20px;
+  transition: background 0.2s, color 0.2s;
+  letter-spacing: 0.3px;
+}
+
+.navbar .nav-link:hover {
+  background: var(--color-beige);
+  color: var(--color-oscuro) !important;
+}
+
+.navbar-toggler {
+  border-color: var(--color-beige2);
+}
