@@ -250,6 +250,11 @@ body {
   transition: transform 0.25s, box-shadow 0.25s;
   height: 100%;
 }
+.producto-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
 
 .producto-img {
   background: var(--color-beige);
