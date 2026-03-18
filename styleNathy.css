@@ -1,6 +1,4 @@
-/* ===========================
-   VARIEDADES NATHY — CSS
-   =========================== */
+/* VARIEDADES NATHY — CSS */
 
 :root {
   --color-principal: #c8a96e;
@@ -78,38 +76,12 @@ body {
   background: linear-gradient(135deg, #f2ede6 0%, #e8ddd0 50%, #d4c4b0 100%);
   overflow: hidden;
 }
-
-.hero::before {
-  content: '';
-  position: absolute;
-  top: -60px;
-  right: -60px;
-  width: 420px;
-  height: 420px;
-  border-radius: 50%;
-  background: rgba(200, 169, 110, 0.12);
-  z-index: 0;
-}
-
-.hero::after {
-  content: '';
-  position: absolute;
-  bottom: -80px;
-  left: 30%;
-  width: 280px;
-  height: 280px;
-  border-radius: 50%;
-  background: rgba(200, 169, 110, 0.08);
-  z-index: 0;
-}
-
 .hero-content {
   position: relative;
   z-index: 2;
   padding: 20px 48px;
   max-width: 640px;
 }
-
 .hero-tag {
   display: inline-block;
   background: var(--color-principal);
@@ -161,7 +133,7 @@ body {
   transform: translateY(-2px);
 }
 
-/* ===== SECCIONES GENERALES ===== */
+/*TITULOS DE LA PAGINA*/
 .section-title {
   font-family: var(--fuente-titulo);
   font-size: 2.4rem;
@@ -177,7 +149,8 @@ body {
   font-size: 0.98rem;
   margin-bottom: 40px;
 }
-/* ===== CARDS DE CATEGORÍAS ===== */
+
+/* CARDS DE CATEGORÍAS  */
 .seccion-categorias {
   background: var(--color-blanco);
 }
@@ -193,22 +166,6 @@ body {
   box-shadow: var(--sombra);
 }
 
-.card-icon-wrap {
-  width: 64px;
-  height: 64px;
-  background: var(--color-beige);
-  border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  margin: 0 auto 16px;
-}
-
-.card-icon-wrap i {
-  font-size: 1.6rem;
-  color: var(--color-principal);
-}
-
 .card-nathy h5 {
   font-family: var(--fuente-titulo);
   font-size: 1.25rem;
@@ -222,7 +179,7 @@ body {
   color: #7a6e65;
   line-height: 1.6;
 }
-/*==== FOTOS====*/
+/*FOTOS*/
 .card-foto {
   width: 100%;
   height: 160px;
@@ -237,7 +194,7 @@ body {
   object-fit: cover;
 }
 
-/* ===== PRODUCTOS DESTACADOS ===== */
+/*  PRODUCTOS DESTACADOS  */
 .seccion-productos {
   background: var(--color-beige);
 }
@@ -297,7 +254,7 @@ body {
   margin: 0;
 }
 
-/* ===== FORMULARIO ===== */
+/* FORMULARIO  */
 .seccion-contacto {
   background: var(--color-blanco);
 }
@@ -360,7 +317,7 @@ body {
 }
 
 
-/* ===== FOOTER ===== */
+/*  FOOTER  */
 .footer {
   background: var(--color-oscuro);
   color: #a0998f;
@@ -420,7 +377,7 @@ body {
   color: #5a5248;
 }
 
-/* ===== RESPONSIVE ===== */
+/* RESPONSIVE SE VA ADAPTAR AL TAMAÑO DES DISPOSITIVO. */
 @media (max-width: 768px) {
   .hero-content {
     padding: 48px 24px;
